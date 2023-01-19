@@ -1,0 +1,7 @@
+1.Upload the "general intents.json" file to your google drive.
+2.Start running the program and the chatbot will initialize.
+3.Ideally, run this on google colab.
+
+Issues:
+        1. The chatbot does not seem to respond properly when questions have a capital letter in them. Saying "Thank you" will sometimes give "Hello" as a response.
+        whereas "thank you" (all small letters) will give the correct response.
