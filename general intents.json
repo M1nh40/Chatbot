@@ -1,0 +1,40 @@
+{"intents":[
+	{
+		"tag": "greeting",
+		"patterns": [ "Hi there", "Hello", "Hey", "Good day", "Is anyone there?" ],
+		"responses": [ "Hello", "Hi there, how can I help?" ],
+		"context": [ "" ]
+	},
+
+
+	{
+		"tag": "goodbye",
+		"patterns": [ "Goodbye", "Bye", "See you later", "Nice Chatting with you, bye", "Till next time", "Cheers" ],
+		"responses": [ "See you soon!", "Have a nice day!", "Bye! Come back again soon!" ],
+		"context": [ "" ]
+	},
+
+
+	{
+		"tag": "thanks",
+		"patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping" ],
+		"responses": [ "Happy to help!", "You're Welcome!", "Any time!", "My pleasure!" ],
+		"context": [ "" ]
+	},
+
+	{
+		"tag": "weather",
+		"patterns": [ "Weather, please", "What is the weather like", "Can you tell me the weather", "How is the weather" ],
+		"responses": [ "The weather is sunny with a 43% chance of rain", "It seems like it will rain later", "It is windy today", "Today is cloudy, it might rain soon." ],
+		"context": [ "" ]
+	},
+
+	{
+		"tag": "music",
+		"patterns": [ "can you play a song please?", "surprise me with a song" ],
+		"responses": [ "Sure. Now playing 'Never gonna Give you Up' By Rick Astley" ],
+		"context": [""]
+	}
+
+  ]
+}
